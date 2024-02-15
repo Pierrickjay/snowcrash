@@ -1,0 +1,11 @@
+We saw that we had .pcap file.
+We dowlonad it with scp -P 4343 level02@localhost:/home/user/level02/level02.pcap ~
+And we search online for a .pcap reader.
+So we use the software already installed called : wireshark.
+We went to statistics->conversation->tcp->FollowStream.
+We can see some "passord:" so we took the chaacter after it and we try but didn t work.
+We realize that 7f on hexa equal to del. So everytime there was a 7f we remove the corresponding charactere.
+
+mdp before:ft_wandr...NDRel.L0L
+mdp after: ft_waNDReL0L
+flags: kooda2puivaav1idi4f57q8iq
