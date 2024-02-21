@@ -1,6 +1,0 @@
-If we cat the file we can see thats a perl script who run at the port 4747.
-And it's executing the script as the creator. So we need to make it execute getflag.
-To do so, we use curl to send a request, and with may tries we figure how to pass param in the query.
-So we finaly succed with this cmd : curl http://localhost:4747?x='$(getflag)'
-
-token: ne2searoevaevoem4ov4ar8ap

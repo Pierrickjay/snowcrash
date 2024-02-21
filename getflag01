@@ -1,7 +1,0 @@
-cat /etc/password
-We can see that the password is not encrypted for flag01.
-But if you try to connect with it, it doesn't work !
-So we will need to use the john the reaper hacking tool (We know that was john to use thanks to level00)
-mdp before decrypt with john :42hDRfypTqqnw
-mdp AFTER :abcdefg
-flag01:f2av5il02puano7naaf6adaaf

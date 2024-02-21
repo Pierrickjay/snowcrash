@@ -1,5 +1,0 @@
-We understood that the program was adding his position to each character:
-For exemple : abc = a(a + pos 0)c(b + pos1)e(c + pos 2)
-so what we make a program that will do the complet oposite witt the chars presentes in token. (check program_flag09.c)
-mdp flag09 = f3iji1ju5yuevaus41q1afiuq
-getflag = s5cAJpM8ev6XHw998pRWG728z

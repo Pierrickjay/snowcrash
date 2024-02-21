@@ -1,8 +1,0 @@
-The file that said exploit me.
-If we decompile the file we realise that is seting a group and a creator different.
-And at the end at the function he is returning : return system("/usr/bin/env echo Exploit me");
-So the return is executed by the creator of the file not the user.
-So we can said that echo is = to /usr/bin/env.
-For doing that we had a new path to /tmp and in /tmp we create an executable file called echo that will call getflag
-and tadam :
-flag =  qi0maab88jeaj46qoumi7maus

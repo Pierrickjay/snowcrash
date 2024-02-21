@@ -1,9 +1,0 @@
-We dissablle the executable file and we realize it s client that need to connect to a serv.
-So we created the serv present in main_10.c. But when we tried to pass token to ./level10 he did connect to the serv but we didn t have access to token so didn't work.
-
-We searched online for exploit on access and we realise it's possible to switch between to file with symlink.
-The idea is to execute level10 with our link pointing to the authorize file and switching it with the token file while
-level10 is running. In doing so, we were able to bypass acces and open file not authorize and read the token file.
-
-token : woupa2yuojeeaaed06riuj63c
-flag : feulo4b72j7edeahuete3no7c
