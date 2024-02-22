@@ -16,5 +16,10 @@ cat /etc/password
 We saw that password was there for flag01, but it was hashed (**42hDRfypTqqnw**)
 
 - After some research we heard about **John the ripper**
-- Next step: using it we find the password for flag01 : **abcdefg**
+- In order to make it work, we put the encrypted code into a file and use the following command:
+```bash
+./john [filename] --show
+```
+- And VOILA: we find the password for flag01 : **abcdefg**
+
 - Last step, we run getflas as flag01 et get : **f2av5il02puano7naaf6adaaf**

@@ -1,6 +1,6 @@
 ## Project README: Finding flag02
 
-After our routine: 
+After our routine:
 
 ```bash
 ls -la
